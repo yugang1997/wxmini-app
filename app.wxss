@@ -1,0 +1,30 @@
+@import '/style/iconfont.wxss';
+
+/* 在微信小程序中不支持通配符'*' */
+
+
+/* 去除默认全局样式 */
+
+page,
+view,
+text,
+swiper,
+swiper-item,
+image,
+navigator {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/* 主题颜色 通过变量来实现 */
+
+page {
+    --themeColor: #eb4450;
+    font-size: 28rpx;
+}
+
+image {
+    width: 100%;
+}
